@@ -1,0 +1,104 @@
+@import "../../global.scss";
+
+.interests{
+    background-color: #fdfcfa;
+    display: flex;
+    overflow:hidden;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .container2{
+        width: 85%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .container{
+        width: 85%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+           
+
+        .item{
+            width: 300px;
+            height: 250px;
+            border-radius: 20px;
+            border: 1px solid white;
+            margin: 50px 75px;
+            color: #d34656;
+            cursor: pointer;
+            background: linear-gradient(#020b16, #020b16, #020b16, #06203d);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 25%;
+
+            &.empty{
+                border-radius: 20px;
+                border: 0;
+                width: 5px;
+                height: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                background: #fdfcfa;
+            }
+        }
+
+        .item2{
+            right: 25%;
+            width: 300px;
+            height: 250px;
+            border-radius: 20px;
+            border: 1px solid white;
+            margin: 50px 75px;
+            color: #d34656;
+            cursor: pointer;
+            background: linear-gradient(#020b16, #020b16, #020b16, #06203d);;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+
+            &.empty{
+                border-radius: 20px;
+                border:0;
+                width: 5px;
+                height: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                background: #fdfcfa;
+            }
+        }
+
+        .itemcontent{
+            width: 100%;
+            height: 100%;
+        }
+
+        .expanditem{
+            width: 750px;
+            height: 550px;
+            border-radius: 20px;
+            border: 1px solid white;
+            color: #d34656;
+            cursor: pointer;
+            background: linear-gradient(#020b16, #020b16, #020b16, #06203d);;
+            z-index: 20;
+            position: absolute;
+            align-self: center;
+        }
+    }
+}

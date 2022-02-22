@@ -1,0 +1,123 @@
+@import "../../global.scss";
+
+.headerbar{
+    width:100%;
+    height: 70px;
+    background: linear-gradient(#020b16, #020b16, #04152b, #06203d, #061c38, #0c2e58);
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index : 3;
+    transition: all 1s ease;
+
+    .particles{
+        position:absolute !important;
+    }
+
+    .wrapper{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 15px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        a{
+            font-size: inherit;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .left{
+            display:flex;
+            align-items: center;
+            
+            .logo{
+                font-size: 50px;
+                font-weight: 750;
+                text-decoration: none;
+                color: inherit;
+                margin-right: 40px;
+            }
+
+            .itemContainerLeft{
+                display: flex;
+                align-items: center;
+                margin-left: 45px;
+
+                .icon{
+                    font-size: 20px;
+                    margin-right: 5px;
+                }
+
+                span{
+                    font-size: 20px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                        &:hover{
+                            font-weight: 800;
+                        }
+                }
+            }
+        }
+
+        .right{
+            display:flex;
+            align-items: center;
+
+            .itemContainerRight{
+                display: flex;
+                align-items: center;
+                margin-right: 40px;
+                cursor: pointer;
+
+                span{
+                    font-size: 20px;
+                    font-weight: 500;
+                    &:hover{
+                        font-weight: 800;
+                    }
+                }
+            }
+            
+            .hamburger{
+                height: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: white;
+                }
+            }
+        }
+    }
+    
+    &.active{
+        background: white;
+        color: #200056;
+
+        .hamburger{
+            .MuiSvgIcon-root{
+                color: #200056;
+            }
+        }
+    }
+}
+
+.barshadow{
+    -webkit-box-shadow: 0px 3px 6px 2px rgba(2,11,22,0.7); 
+    box-shadow: 0px 3px 6px 2px rgba(2,11,22,0.7);
+}
+
+.bartxtshadow{
+    text-shadow:1px 3px 2px rgba(223, 218, 154, 0.7);
+    -webkit-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+  
+
