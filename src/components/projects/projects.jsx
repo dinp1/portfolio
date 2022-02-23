@@ -149,7 +149,6 @@ export default function Projects(){
                                         </ul>
                                         </div>
                                     </div>
-                                    <span>Projects</span>
                                 </div>
                             </div>
                             <div className="right">
@@ -188,7 +187,6 @@ export default function Projects(){
                                         </ul>
                                         </div>
                                     </div>
-                                    <span>Projects</span>
                                 </div>
                             </div>
                             <div className="right">
@@ -223,7 +221,6 @@ export default function Projects(){
                                         </ul>
                                         </div>
                                     </div>
-                                    <span>Projects</span>
                                 </div>
                             </div>
                             <div className="right">
