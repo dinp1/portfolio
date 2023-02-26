@@ -55,26 +55,26 @@ export default function Projects(){
                                     <h2 className="shadow1">Core Banking System</h2>
                                     <p>Full range of development activities for the core banking system used by colleagues to serve millions of customers accross the UK.</p>
                                     <ul>
-                                        <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Creating new components, functions, UI, defect fixes</li>
-                                        <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Migrated software form Win7 to Win10</li>
-                                        <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Implemented key banking services using API's</li>
+                                        <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Creating new components, features, UI, defect fixes</li>
+                                        <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Designing system architechture & POC for Greenfield projects</li>
+                                        <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Software migration implementing new technologies & services</li>
                                     </ul>
                                     <h3>TechStack</h3>
                                     <div className="techstack">
                                         <div className="leftstack">
                                         <ul >
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>.Net</li>
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>C/C++/C#</li>
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>JavaScript</li>
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Microsoft OS</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>React/JavaScript</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>GraphQL</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Airflow/Python</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>GitHub</li>
                                         </ul>
                                         </div>
                                         <div className="rightstack">
                                         <ul>
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>PowerShell</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>.Net/C#</li>
                                             <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>SQL</li>
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>ReactJS</li>
-                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Windows Serivces</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Docker</li>
+                                            <li><DeveloperBoardIcon className='listIcon' sz={{fontSize:500}}/>Jenkins</li>
                                         </ul>
                                         </div>
                                     </div>
